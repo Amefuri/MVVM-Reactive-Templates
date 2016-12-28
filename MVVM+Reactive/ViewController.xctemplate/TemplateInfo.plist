@@ -47,13 +47,13 @@
 
 				<dict>
 					<key>Default</key>
-					<string>___VARIABLE_sceneName:identifier___ViewModel</string>
+					<string>___VARIABLE_sceneName:identifier___ViewController</string>
 					<key>Description</key>
-					<string>The ViewModel file name</string>
+					<string>View Controller file name</string>
 					<key>Identifier</key>
-					<string>viewModelFileName</string>
+					<string>viewControllerFileName</string>
 					<key>Name</key>
-					<string>ViewModel File Name:</string>
+					<string>View Controller File Name:</string>
 					<key>Required</key>
 					<true/>
 					<key>Type</key>
