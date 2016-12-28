@@ -24,16 +24,24 @@ public protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
 
 public final class ___FILEBASENAMEASIDENTIFIER___ViewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType, ___FILEBASENAMEASIDENTIFIER___ViewModelInputs, ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
     
-    // MARK: Public
+    // MARK: Variable
     
-    public var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { return self }
-    public var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { return self }
+    private let disposeBag = DisposeBag()
+    
+    // MARK: Init
+    
+    public init() {
+        
+    }
     
     // MARK: Input
     
     // MARK: Output
     
-    // MARK: Private
+    // MARK: Input&Output
     
-    private let disposeBag = DisposeBag()
+    public var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { return self }
+    public var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { return self }
+    
+    // MARK: Private
 }
