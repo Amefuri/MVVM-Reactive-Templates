@@ -7,20 +7,33 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: BaseViewController {
+    
+    // MARK: Initializing
+    
+    init(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType) {
+        super.init()
+        self.configure(viewModel)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    // MARK: View Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    // MARK: Configuring
+    
+    private func configure(_ viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType) {
         
-        // Do any additional setup after loading the view.
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     
     /*
      // MARK: - Navigation
