@@ -15,7 +15,7 @@ make uninstall
 Requirements
 ------------
 
-* Xcode 8+
+* Xcode 8.0+
 * Swift 3
 * RxSwift
 * RxCocoa
