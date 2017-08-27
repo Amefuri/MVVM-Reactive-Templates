@@ -8,40 +8,43 @@
 
 import RxSwift
 import RxCocoa
+import Action
 
-public protocol ___FILEBASENAMEASIDENTIFIER___ViewModelInputs {
+protocol ___FILEBASENAMEASIDENTIFIER___ViewModelInputs {
     
 }
 
-public protocol ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
+protocol ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
     
 }
 
-public protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
-    var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { get }
-    var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { get }
+protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
+  var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { get }
+  var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { get }
 }
 
-public final class ___FILEBASENAMEASIDENTIFIER___ViewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType, ___FILEBASENAMEASIDENTIFIER___ViewModelInputs, ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
+struct ___FILEBASENAMEASIDENTIFIER___ViewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType, ___FILEBASENAMEASIDENTIFIER___ViewModelInputs, ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
+  
+  // MARK: Property
+  
+  let sceneCoordinator: SceneCoordinatorType
+  
+  // MARK: Init
     
-    // MARK: Variable
+  public init(coordinator: SceneCoordinatorType) {
+    self.sceneCoordinator = coordinator
+  }
+  
+  // MARK: Action
+  
+  // MARK: Input
     
-    private let disposeBag = DisposeBag()
+  // MARK: Output
     
-    // MARK: Init
+  // MARK: Input&Output
     
-    public init() {
-        
-    }
+  public var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { return self }
+  public var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { return self }
     
-    // MARK: Input
-    
-    // MARK: Output
-    
-    // MARK: Input&Output
-    
-    public var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { return self }
-    public var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { return self }
-    
-    // MARK: Private
+  // MARK: Private
 }
