@@ -1,7 +1,7 @@
 XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
 XCODE_USER_SNIPPETS_DIR=~/Library/Developer/Xcode/UserData/CodeSnippets
 
-TEMPLATES_DIR=MVVM+Reactive2
+TEMPLATES_DIR=MVVM+Reactive
 
 install:install_templates
 	@echo "Install Complete"

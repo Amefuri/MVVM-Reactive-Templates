@@ -11,13 +11,13 @@ import RxCocoa
 import RxSwift
 import NSObject_Rx
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, BindableType {
+class ___VARIABLE_sceneName___ViewController: UIViewController, BindableType {
   
   // MARK: IBOutlet
   
   // MARK: Property 
   
-  var viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType!
+  var viewModel: ___VARIABLE_sceneName___ViewModelType!
   
   // MARK: View Life Cycle
     

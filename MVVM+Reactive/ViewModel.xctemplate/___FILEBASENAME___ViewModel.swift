@@ -10,20 +10,20 @@ import RxSwift
 import RxCocoa
 import Action
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewModelInputs {
+protocol ___VARIABLE_sceneName___ViewModelInputs {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
+protocol ___VARIABLE_sceneName___ViewModelOutputs {
     
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewModelType {
-  var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { get }
-  var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { get }
+protocol ___VARIABLE_sceneName___ViewModelType {
+  var inputs: ___VARIABLE_sceneName___ViewModelInputs { get }
+  var outputs: ___VARIABLE_sceneName___ViewModelOutputs { get }
 }
 
-struct ___FILEBASENAMEASIDENTIFIER___ViewModel: ___FILEBASENAMEASIDENTIFIER___ViewModelType, ___FILEBASENAMEASIDENTIFIER___ViewModelInputs, ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs {
+struct ___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModelType, ___VARIABLE_sceneName___ViewModelInputs, ___VARIABLE_sceneName___ViewModelOutputs {
   
   // MARK: Property
   
@@ -43,8 +43,8 @@ struct ___FILEBASENAMEASIDENTIFIER___ViewModel: ___FILEBASENAMEASIDENTIFIER___Vi
     
   // MARK: Input&Output
     
-  public var outputs: ___FILEBASENAMEASIDENTIFIER___ViewModelOutputs { return self }
-  public var inputs: ___FILEBASENAMEASIDENTIFIER___ViewModelInputs { return self }
+  public var outputs: ___VARIABLE_sceneName___ViewModelOutputs { return self }
+  public var inputs: ___VARIABLE_sceneName___ViewModelInputs { return self }
     
   // MARK: Private
 }
